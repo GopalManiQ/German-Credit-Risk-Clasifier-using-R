@@ -2,18 +2,18 @@
 
 # Project : Risk Classification using Machine Learning.
 
-# Dataset
+# 1. Dataset
 The data set that was used in this project comprises 1000 instances represent credit transactions.
 Each sample is represented a transaction. Among which 13 attributes are categorical and 7 are numerical.
 
-# Preprocessing
+# 2. Preprocessing
 
-## Label Encoding
+## 3. Label Encoding
 In order to convert the categorical values to numerical values over all samples, we used Label Encoding technique.
 
 
 
-## Normalization
+## 4. Normalization
 In order to normalize the range of the feature values over all samples, we standardized(aka normlize) the
 continuous feature values according to the formula:
                                         ```x(max−min)+min```
@@ -23,7 +23,7 @@ x represents the column vector containing continuous feature values of each of t
 continuous-valued attributes for all samples.
 
 
-# Training and Test
+# 5. Training and Test
 [Task] -> Binary Classification
 
 [Training set] -> 800 rows, 21 columns
@@ -35,14 +35,14 @@ continuous-valued attributes for all samples.
 [Response] -> V21
 
 
-# Model Selection
+# 6. Model Selection
 
 ## 1. Logistic Regression
 ## 2. Support Vector Machines
 ## 3. KNN Model
 ## 4. Decision tree
 
-# Modelling and Results
+# 7. Modelling and Results
 
 Accuracy
 
