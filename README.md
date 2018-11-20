@@ -37,10 +37,10 @@ continuous-valued attributes for all samples.
 
 # 6. Model Selection
 
-## 1. Logistic Regression
-## 2. Support Vector Machines
-## 3. KNN Model
-## 4. Decision tree
+1. Logistic Regression
+2. Support Vector Machines
+3. Adaboost(Best Model) --> Good Accuracy, Less False Negatives
+4. Random Forest
 
 # 7. Modelling and Results
 
@@ -50,6 +50,10 @@ Precision
 
 Recall
 
+# 8. Program Execution
+Run shinyApp() function in the code to input sample values.
+
+```shinyApp(ui, server)```
 
 
 
